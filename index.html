@@ -17,10 +17,10 @@
 
       <!-- Menu para telas grandes -->
       <div class="nav-links">
-        <a href="index.html" class="active">Início</a>
-        <a href="historia.html">Trajetória</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="curriculo.html">Currículo</a>
+        <a href=#inicio class="active">Início</a>
+        <a href=#trajetoria>Trajetória</a>
+        <a href=#galeria>Galeria</a>
+        <a href=#curriculo>Currículo</a>
       </div>
 
       <!-- Botão hambúrguer (aparece só no celular) -->
@@ -45,7 +45,7 @@
   </nav>
 
   <!-- ===================== HERO ===================== -->
-  <section class="hero">
+  <section id="inicio" class="hero">
     <div class="container">
 
       <!-- Coluna da esquerda: texto de apresentação -->
@@ -53,7 +53,7 @@
         <div class="hero-profile">
           <div class="avatar-wrap">
             <div class="avatar">
-              <img src="img/perfil.jpg" alt="Foto de Thalles Vinícius" />
+              <img src="img/perfil.jpg" style="object-fit: cover;object-position: 100% 70% !important;" alt="Foto de Thalles Vinícius" />
             </div>
             <span class="avatar-status"></span>
           </div>
@@ -81,14 +81,14 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="curriculo.html" class="btn btn-primary">
+          <a href=#curriculo class="btn btn-primary">
             Ver Projetos
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <polyline points="12 5 19 12 12 19"></polyline>
             </svg>
           </a>
-          <a href="mailto:thalles.ferreiracruz@gmail.com" class="btn btn-outline">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thalles.ferreiracruz@gmail.com" target="_blank" class="btn btn-outline">
             Contato
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="4" width="20" height="16" rx="2"></rect>
@@ -112,7 +112,7 @@
             </svg>
             <span>LinkedIn</span>
           </a>
-          <a href="mailto:thalles@email.com" class="social-link">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thalles.ferreiracruz@gmail.com" target="_blank" class="social-link">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="4" width="20" height="16" rx="2"></rect>
               <path d="M22 7L13.03 12.7a2 2 0 0 1-2.06 0L2 7"></path>
@@ -156,6 +156,530 @@
 
     </div>
   </section>
+  <!-- ===================== TRAJETÓRIA / TIMELINE ===================== -->
+  <section id="trajetoria" class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">02 / Trajetória</span>
+        <h2 class="section-title">Minha História</h2>
+        <p class="section-desc">
+          Uma jornada de curiosidade, aprendizado contínuo e paixão por resolver
+          problemas através da tecnologia.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-list">
+          <!-- Item 1: Engenharia de Computação (esquerda) -->
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2015</span>
+                  <span class="tag tag-blue">Educação</span>
+                </div>
+                <h3>Engenharia de Elétrica — 6º Período</h3>
+                <div class="timeline-org">CEFET-MG</div>
+                <p>
+                  Cursou graduação até o 6º período no Centro Universitário Católica 
+                  do Leste de Minas Gerais, com foco em circuitos elétricos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Engenharia de Computação (esquerda) -->
+          <div class="timeline-item right">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2016 à 2026 — presente</span>
+                  <span class="tag tag-green">Experiência</span>
+                </div>
+                <h3>Profissão</h3>
+                <div class="timeline-org">Servidor Público</div>
+                <p>
+                  Atuando como Servidor Público, na aréa de Segurança Pública 
+                  pelo Estado de Minas Gerais.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Engenharia de Computação (esquerda) -->
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2024 à 2026 — presente</span>
+                  <span class="tag tag-blue">Educação</span>
+                </div>
+                <h3>Engenharia de Computação</h3>
+                <div class="timeline-org">CEFET-MG</div>
+                <p>
+                  Cursando graduação no Centro Federal de Educação Tecnológica de Minas
+                  Gerais, com foco em arquitetura de computadores, sistemas embarcados e
+                  desenvolvimento de software.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Trainee (direita) -->
+          <div class="timeline-item right">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2026 — presente</span>
+                  <span class="tag tag-green">Experiência</span>
+                </div>
+                <h3>Trainee</h3>
+                <div class="timeline-org">Commit Jr.</div>
+                <p>
+                  Atuando como trainee na empresa júnior do CEFET-MG, desenvolvendo
+                  projetos reais para clientes, trabalhando com desenvolvimento de
+                  software, APIs REST e metodologias ágeis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Projetos Acadêmicos (esquerda) -->
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2025</span>
+                  <span class="tag tag-violet">Projeto</span>
+                </div>
+                <h3>Projetos Acadêmicos</h3>
+                <div class="timeline-org">CEFET-MG</div>
+                <p>
+                  Participação em projetos envolvendo programação em Assembly MIPS,
+                  desenvolvimento de sistemas em C, java, simulações em MATLAB e 
+                  aplicações em Python com foco em algoritmos e estruturas de dados.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Início da Jornada (direita) -->
+          <div class="timeline-item right">
+            <span class="timeline-dot"></span>
+            <div class="timeline-spacer"></div>
+            <div class="timeline-card">
+              <div class="timeline-box">
+                <div class="timeline-top">
+                  <span class="timeline-year">2023</span>
+                  <span class="tag tag-amber">Marco</span>
+                </div>
+                <h3>Início da Jornada</h3>
+                <div class="timeline-org">Programando</div>
+                <p>
+                  Primeiros passos no mundo da programação, explorando Python,
+                  algoritmos e lógica computacional. Descoberta da paixão por
+                  tecnologia e resolução de problemas através do código.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+   <!-- ===================== GALERIA ===================== -->
+  <section id="galeria" class="section gallery-section">
+    <div class="container">
+
+      <div class="section-header" style="margin-bottom: 64px;">
+        <span class="section-eyebrow">03 / Galeria</span>
+        <h2 class="section-title">Além do Código</h2>
+        <p class="section-desc">
+          Quando não estou programando, estou explorando trilhas, montanhas e as
+          paisagens surpreendentes do Brasil e do mundo.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- Foto grande (ocupa 2 colunas e 2 linhas no desktop) -->
+        <div class="gallery-item col-2 row-2">
+          <img src="img/diamantina.jpg" alt="Trilha nas montanhas ao amanhecer" />
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Diamantina, MG</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/salar4.jpg" alt="Deserto de sal" />
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Salar do Yuni, Bolivia</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/serra-dos-alves.jpg" alt="Por do sol" style="object-position: center 85%; object-fit: cover;"/>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Serra dos Alves, MG</span>
+          </div>
+        </div>
+
+        <div class="gallery-item col-2">
+          <img src="img/chapada-diamantina.jpg" alt="Flutuação" />
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Chapada Diamantina, BA</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/atacama2.jpg" alt="Deserto" />
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Deserto Atacama, Chile</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/2026-05-16_33_.jpg" alt="Santiago, Chile" />
+          <div class="gallery-overlay"></div>
+          <div class="gallery-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Santiago, Chile</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+   <!-- ===================== CURRÍCULO ===================== -->
+  <section id="curriculo" class="section">
+    <div class="container">
+
+      <div class="curriculo-header">
+        <div>
+          <span class="section-eyebrow">04 / Currículo</span>
+          <h2 class="section-title">Qualificações</h2>
+          <p class="section-desc">
+            Formação sólida, habilidades técnicas diversas e experiência prática em
+            projetos reais.
+          </p>
+        </div>
+
+        <a href="assets/curriculo-thalles.pdf" class="btn-cv" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download CV
+        </a>
+      </div>
+
+      <div class="cv-grid">
+
+        <!-- Formação Acadêmica -->
+        <div class="cv-card">
+          <div class="cv-card-head">
+            <div class="cv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="1" y1="15" x2="4" y2="15"></line>
+                <line x1="20" y1="15" x2="23" y2="15"></line>
+              </svg>
+            </div>
+            <h3>Formação Acadêmica</h3>
+          </div>
+
+          <div class="edu-box">
+            <div class="edu-title">Engenharia de Computação</div>
+            <div class="edu-org">CEFET-MG</div>
+            <div class="edu-date">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2024 — 2029 (em andamento)</span>
+            </div>
+            <div class="edu-pills">
+              <span class="edu-pill">Arquitetura de Computadores</span>
+              <span class="edu-pill">Sistemas Embarcados</span>
+              <span class="edu-pill">Algoritmos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="cv-card">
+          <div class="cv-card-head">
+            <div class="cv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3>Idiomas</h3>
+          </div>
+
+          <div class="bar-row">
+            <div class="bar-top">
+              <span class="bar-name">Português</span>
+              <span class="bar-value">Nativo</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width: 100%;"></div>
+            </div>
+          </div>
+
+          <div class="bar-row">
+            <div class="bar-top">
+              <span class="bar-name">Inglês</span>
+              <span class="bar-value">Intermediário — B1/B2</span>
+            </div>
+            <div class="bar-track">
+              <div class="bar-fill" style="width: 62%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Habilidades Técnicas -->
+        <div class="cv-card span-2">
+          <div class="cv-card-head">
+            <div class="cv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Habilidades Técnicas</h3>
+          </div>
+
+          <div class="skills-grid">
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">Python</span>
+                <span class="bar-value">80%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">C</span>
+                <span class="bar-value">70%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 70%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">Java</span>
+                <span class="bar-value">80%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">SQL</span>
+                <span class="bar-value">90%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">MIPS Assembly</span>
+                <span class="bar-value">60%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 60%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">MATLAB</span>
+                <span class="bar-value">65%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 65%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">Git</span>
+                <span class="bar-value">78%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 78%;"></div></div>
+            </div>
+
+            <div class="bar-row skill-row">
+              <div class="bar-top">
+                <span class="bar-name">REST APIs</span>
+                <span class="bar-value">72%</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" style="width: 72%;"></div></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Projetos & Experiências -->
+        <div class="cv-card span-2">
+          <div class="cv-card-head">
+            <div class="cv-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3>Projetos & Experiências</h3>
+          </div>
+
+          <div class="projects-grid">
+
+            <div class="project-card">
+              <div class="project-top">
+                <h4>Landing Page Institucional</h4>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+              <p>
+                Desenvolvimento de uma Landing Page corporativa 
+                e responsiva focada em conversão e captação de 
+                clientes para uma empresa simulada de contabilidade - 
+                EXATA Contabilidade.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Wordpress</span>
+                <span class="project-tag">Elementor Pro</span>
+                <span class="project-tag">Pods</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-top">
+                <h4>Simulador MIPS</h4>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+              <p>
+                Simulador de processador MIPS implementado em C, capaz de executar
+                instruções básicas de Assembly e simular pipeline de cinco estágios.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">C</span>
+                <span class="project-tag">Assembly</span>
+                <span class="project-tag">Arquitetura</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-top">
+                <h4>Modelagem de Sistema</h4>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+              <p>
+                Construção da modelagem e documentação de um sistema para auxiliar clientes e 
+                advogados na prestação de serviços - JuriSolution.
+
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">Figma</span>
+                <span class="project-tag">Latex</span>
+                <span class="project-tag">Drawio</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-top">
+                <h4>Sistema - Em construção</h4>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+              <p>
+                Construindo um Sistema na matéria de Orientação a Objetos, para
+                uma Loja de Informática.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">VsCode</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
@@ -178,7 +702,7 @@
             <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
-        <a href="mailto:thalles.ferreiracruz@gmail.com" aria-label="E-mail">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thalles.ferreiracruz@gmail.com" target="_blank" aria-label="E-mail">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="4" width="20" height="16" rx="2"></rect>
             <path d="M22 7L13.03 12.7a2 2 0 0 1-2.06 0L2 7"></path>

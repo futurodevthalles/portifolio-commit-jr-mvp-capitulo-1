@@ -223,14 +223,16 @@ ul {
 ----------------------------------------------------------- */
 .hero {
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
   overflow: hidden;
   padding-top: 96px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
-
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 144px;
+    padding-bottom: 64px;
+  }
+}
 /* fundo quadriculado sutil */
 .hero::before {
   content: "";
@@ -261,7 +263,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 400px;
   gap: 80px;
-  align-items: center;
+  align-items: start; 
 }
 
 @media (max-width: 900px) {
@@ -580,12 +582,13 @@ ul {
    7. CABEÇALHO DE SEÇÃO (usado em historia, galeria e curriculo)
 ----------------------------------------------------------- */
 .section {
-  padding: 112px 0;
+  padding: 40px 0 80px 0;   /* Mudamos de 80px para 40px no topo para subir o texto! */
+  scroll-margin-top: 64px; 
 }
 
 @media (min-width: 768px) {
   .section {
-    padding: 144px 0;
+    padding: 80px 0;
   }
 }
 
